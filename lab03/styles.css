@@ -1,7 +1,7 @@
 
 :root{
     --brandcolor:#3E5161;
-    --maincolor:#07ACA0;
+    --main-color: #db4444;
     --backgroundclr:#efefef;
 }
 body{
@@ -16,8 +16,8 @@ body{
 }
 
 .navbar .container .navbar-collapse .navbar-nav .nav-item a:hover{
-    border-top:var(--maincolor) 2px solid;
-    color: var(--maincolor);
+    border-top:var(--main-color) 2px solid;
+    color: var(--main-color) !important;
 }
 
 
