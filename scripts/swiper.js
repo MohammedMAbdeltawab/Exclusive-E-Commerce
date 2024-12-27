@@ -29,3 +29,15 @@ var swiper = new Swiper(".slide-swp", {
     },
     loop: true,
   });
+
+var slideIndex = 0;
+setInterval(
+  function(){
+    var sliderItem = document.getElementById("sliderItem");
+    sliderItem.setAttribute("src", `./img/slider-0${slideIndex + 1}.jpg`);
+    slideIndex++;
+    slideIndex %= 3;
+  },
+  2500
+);
+

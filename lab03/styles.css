@@ -1,11 +1,11 @@
-
 :root{
     --brandcolor:#3E5161;
     --main-color: #db4444;
     --backgroundclr:#efefef;
 }
-body{
-}
+
+/* body{
+} */
 
 
 .navbar .container .navbar-collapse .navbar-nav .nav-item a{
@@ -27,3 +27,27 @@ body{
     height: 10px;
     object-fit: fill;
 }
+
+
+.sec02 .container .row img{
+    width: 100%;
+    margin: 5px;
+}
+
+  p {
+    display: none;
+  }
+  .form-control{
+      outline: none;
+      box-shadow: none;
+      border-bottom: 2px solid var(--main-color);
+    }
+  .form-control:focus {
+    outline: none;
+    box-shadow: none;
+    border: 2px solid var(--main-color);
+  }
+  
+  h6 a:hover{
+      color: var(--main-color) !important;
+  }
